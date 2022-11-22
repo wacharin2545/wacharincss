@@ -1,0 +1,87 @@
+h2{
+    color: #39ff64;
+}
+p{
+    color: rgb(0, 195, 255);
+    text-align: center;
+    background-color: blanchedalmond;
+}
+.title{
+    color: #bb03ac;
+    text-align: right;
+    font-size: 70px;
+}
+
+body{
+    background-image: url("1.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+p.error{
+    color: chocolate;
+    font-size: 20px;
+    font-weight: bold;
+}
+p.success{
+    color: darkkhaki;
+    font-size: 20px;
+    font-weight: bolder;
+}
+div{
+    width: 100px;
+    height: 100px;
+    text-align: left;
+}
+#box{
+    background-color: rgb(199, 20, 20);
+}
+#box2{
+    background-color: #70ff8f;
+}
+#box3{
+    background-color: #1e091f;
+}
+#box4{
+    background-color: #2d00cf;
+}
+#box5{
+    background-color: #fffb00;
+}
+.nav{
+    background-color: yellow;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    clear: left;
+}
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 30px;
+}
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+    object-fit: none;
+    opacity: 0.5;
+}
+div.hover{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 2s;
+}
+div.hover:hover{
+    width: 300px;
+    background-color: rgb(20, 199, 35);
+}
+.button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
